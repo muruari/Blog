@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Coding Dojo Blog Project</title>
+	<meta name="description" content="This is Robert's first blog, created at Coding Dojo.">
+</head>
+<body>
+	<br></br>
+	<h1>About me:</h1>
+	<h3>My name is Robert Murua and I'm a student at Coding Dojo!</h3>
+	<img src="robert.jpg" alt="a picture of Robert Murua" height="360" width="308">
+	<p>>I've worked at all of the following companies:</p>
+		<ul>
+			<li>U.S. Marine Corps</li>
+			<li>Xfire</li>
+			<li>Stryker Endoscopy</li>
+		</ul>
+
+	<table border: 20px border-color: blue>
+		<thead>
+			<tr>
+				<th>Company</th>
+				<th>Location</th>
+				<th>Year</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>U.S.M.C.</td>
+				<td>MCAS Miramar</td>
+				<td>2003-07</td>
+			</tr>
+			<tr>
+				<td>Xfire</td>
+				<td>Menlo Park</td>
+				<td>2008-10</td>
+			</tr>
+		</tbody>
+	</table>
+
+<form>
+<div id="questions">
+	<p>Have you ever been to any of these places?</p>
+	<select name="locations">
+		<option value="mcas_miramar">MCAS Miramar</option>
+		<option value="menlo_park">Menlo Park</option>
+		<option value="san_jose">San Jose, CA</option>
+		<option value="none">None of these!</option>
+	</select>
+
+	<br></br>
+
+	<p>Have you ever worked for any of these companies?</p>
+	<label for="usmc">USMC</label>
+	<input type="checkbox" id="usmc" name="company" value="usmc">
+	<label for="Xfire">Xfire</label>
+	<input type="checkbox" id="xfire" name="company" value="xfire">
+	<label for="coding_dojo">Coding Dojo</label>
+	<input type="checkbox" id="coding_dojo" name="company" value="coding_dojo">
+
+	<br></br>
+
+	<label>What other places have you worked?</label>
+	<input type="text" id="places" name="places">
+
+	<br></br>
+
+	<p>How did we do?</p>
+	<label for="great">Great</label>
+	<input type="radio" id="great" name="performance" value="great"> 
+	<label for="soso">So so</label>
+	<input type="radio" id="soso" name="performance" value="soso"> 
+	<label for="do_better">I've seen better...</label>
+	<input type="radio" id="do_better" name="performance" value="do_better"> 
+
+	<br></br>
+</div>
+	<input type="submit" value="Submit!">
+
+
+
+</form>
+
+<br></br>
+
+<footer>
+	<p>Links:</p>
+	<ul>
+		<li>
+			<a href="https://www.usmc.mil">United States Marine Corps</a>
+		</li>
+		<li>
+			<a href="https://www.xfire.com">Xfire</a>
+		</li>
+		<li>
+			<a href="https://www.codingdojo.com">Coding Dojo</a>
+		</li>
+	</ul>
+</footer>
+</body>
+</html>
